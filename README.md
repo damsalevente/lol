@@ -1,19 +1,19 @@
 # State 
 
-[x] PWM
-[x] UART
-[x] SPI
-[x] I2C
-[x] ADC
-[x] GPIO
-[ ] Clock(s)
-[ ] Timer setup
-[ ] I2C setup(speed)
-[ ] SPI setup
-[ ] Encoder setup (from old repo)
-[ ] Interrupts
-[ ] DMA
-[ ] RTOS
+- [x] PWM
+- [x] UART
+- [x] SPI
+- [x] I2C
+- [x] ADC
+- [x] GPIO
+- [ ] Clock(s)
+- [ ] Timer setup
+- [ ] I2C setup(speed)
+- [ ] SPI setup
+- [ ] Encoder setup (from old repo)
+- [ ] Interrupts
+- [ ] DMA
+- [ ] RTOS
 
 
 ## Question
