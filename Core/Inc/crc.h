@@ -1,9 +1,8 @@
-/* USER CODE BEGIN Header */
 /**
- ******************************************************************************
-  * @file    user_diskio.h
-  * @brief   This file contains the common defines and functions prototypes for
-  *          the user_diskio driver.
+  ******************************************************************************
+  * @file    crc.h
+  * @brief   This file contains all the function prototypes for
+  *          the crc.c file
   ******************************************************************************
   * @attention
   *
@@ -17,30 +16,37 @@
   *
   ******************************************************************************
   */
- /* USER CODE END Header */
-
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __USER_DISKIO_H
-#define __USER_DISKIO_H
+#ifndef __CRC_H__
+#define __CRC_H__
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
-/* USER CODE BEGIN 0 */
-
 /* Includes ------------------------------------------------------------------*/
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions ------------------------------------------------------- */
-extern Diskio_drvTypeDef  USER_Driver;
+#include "main.h"
 
-/* USER CODE END 0 */
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+extern CRC_HandleTypeDef hcrc;
+
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+void MX_CRC_Init(void);
+
+/* USER CODE BEGIN Prototypes */
+
+/* USER CODE END Prototypes */
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* __USER_DISKIO_H */
+#endif /* __CRC_H__ */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

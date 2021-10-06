@@ -58,6 +58,60 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DIST_XSHUT_L_Pin GPIO_PIN_13
+#define DIST_XSHUT_L_GPIO_Port GPIOC
+#define DIST_XSHUT_L_2_Pin GPIO_PIN_14
+#define DIST_XSHUT_L_2_GPIO_Port GPIOC
+#define DIST_XSHUT_L_3_Pin GPIO_PIN_15
+#define DIST_XSHUT_L_3_GPIO_Port GPIOC
+#define DIST_INT_3_Pin GPIO_PIN_3
+#define DIST_INT_3_GPIO_Port GPIOC
+#define Ubat_in_Pin GPIO_PIN_4
+#define Ubat_in_GPIO_Port GPIOA
+#define Ibat_in_Pin GPIO_PIN_5
+#define Ibat_in_GPIO_Port GPIOA
+#define LINE_CS_Pin GPIO_PIN_4
+#define LINE_CS_GPIO_Port GPIOC
+#define MOTOR_PWM1_Pin GPIO_PIN_0
+#define MOTOR_PWM1_GPIO_Port GPIOB
+#define MOTOR_PWM2_Pin GPIO_PIN_1
+#define MOTOR_PWM2_GPIO_Port GPIOB
+#define IMU_CS_Pin GPIO_PIN_2
+#define IMU_CS_GPIO_Port GPIOB
+#define Motor_en_fb_Pin GPIO_PIN_12
+#define Motor_en_fb_GPIO_Port GPIOB
+#define Motor_en_Pin GPIO_PIN_14
+#define Motor_en_GPIO_Port GPIOB
+#define Ultrasonic_out_Pin GPIO_PIN_15
+#define Ultrasonic_out_GPIO_Port GPIOB
+#define Servo_dist_Pin GPIO_PIN_6
+#define Servo_dist_GPIO_Port GPIOC
+#define IMPELLER_PWM1_Pin GPIO_PIN_7
+#define IMPELLER_PWM1_GPIO_Port GPIOC
+#define IMPELLER_PWM2_Pin GPIO_PIN_8
+#define IMPELLER_PWM2_GPIO_Port GPIOC
+#define Maverick_Steer_Pin GPIO_PIN_9
+#define Maverick_Steer_GPIO_Port GPIOC
+#define Ultrasonic_IN_Pin GPIO_PIN_8
+#define Ultrasonic_IN_GPIO_Port GPIOA
+#define Maverick_Throttle_Pin GPIO_PIN_11
+#define Maverick_Throttle_GPIO_Port GPIOA
+#define Button_1_Pin GPIO_PIN_12
+#define Button_1_GPIO_Port GPIOA
+#define Button_2_Pin GPIO_PIN_15
+#define Button_2_GPIO_Port GPIOA
+#define DIST_INT_1_Pin GPIO_PIN_11
+#define DIST_INT_1_GPIO_Port GPIOC
+#define DIST_INT_2_Pin GPIO_PIN_2
+#define DIST_INT_2_GPIO_Port GPIOD
+#define ENC_CH1_Pin GPIO_PIN_4
+#define ENC_CH1_GPIO_Port GPIOB
+#define ENC_CH2_Pin GPIO_PIN_5
+#define ENC_CH2_GPIO_Port GPIOB
+#define Servo_front_Pin GPIO_PIN_6
+#define Servo_front_GPIO_Port GPIOB
+#define Servo_back_Pin GPIO_PIN_7
+#define Servo_back_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
